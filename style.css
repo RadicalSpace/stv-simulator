@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  #pie {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    top: 450px;
+  }
+  
+  #partyLabel{
+    position: absolute;
+    top:250px;
+    left: 25px;
+  }
+  
+  #partyNum{
+    position: absolute;
+    top:275px;
+    left: 25px;
+  }
+  
+  #threshLabel{
+    position: absolute;
+    top:325px;
+    left: 25px;
+  }
+  
+  #threshold{
+    position: absolute;
+    top:350px;
+    left: 25px;
+  }
+  
+  #generateButton{
+    position: absolute;
+    top:390px;
+    left: 25px;
+  }
+  
+  #header{
+    position: absolute;
+    background-color: #005285;
+    color:white;
+    font-size: 120px;
+    margin:-10px;
+    padding: 20px;
+    text-align: center;
+    width:100%;
+  }
+  
+  #threshbar{
+    z-index: 10;
+  }
+  
+  #button1{
+    position: absolute;
+    top:390px;
+    left: 120px;
+  }
+  
+  #blob{
+    position: absolute;
+    top: 900px;
+    margin:-10px;
+    width: 100%;
+    font-size: 40px;
+    background-color: #005285;
+    color:white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  body{
+    font-family: Poppins;
+    font-weight: 700;
+  }
+  
+  #partyNum{
+    border-style: solid;
+    border-color:#005285;
+    border-width: 3px;
+    background-color: #027cc9;
+    color:white;
+    font-family: poppins;
+    font-size:17px;
+    font-weight: 900;
+  }
+  
+  #threshold{
+    border-style: solid;
+    border-color:#005285;
+    border-width: 3px;
+    background-color: #027cc9;
+    color:white;
+    font-family: poppins;
+    font-size:17px;
+    font-weight: 900;
+  }
+  
+  button{
+    border:none;
+    background-color:#005285;
+    font-family: Poppins;
+    color:white;
+    font-size:15px;
+  }
